@@ -11,6 +11,14 @@
 
 void execute (char *path_absoluto) {
 
+    puts(path_absoluto);
+fork();
+__pid_t pid;
+pid = getpid();
+    printf("pid = %i\n",pid);
+execv("/bin/date","/bin/date");
+
+
 
 
 }

@@ -4,6 +4,8 @@
 #include<string.h>
 #include<unistd.h>
 #include <linux/limits.h>
+#include "func.h"
+#include "ejecucion.h"
 
 static void handler();
 
@@ -23,6 +25,8 @@ int main(int argc, char *argv[]) {
     free(buf);
 
     //while (1)  {
+  //  printf("%s@%s:%s$", getenv("USER"),gethostname(),getenv("PWD"));
+
     for (int i = 0; i < argc; i++) {
         printf("argv[%i] = %s\n", i, argv[i]);
     }
@@ -64,6 +68,11 @@ int main(int argc, char *argv[]) {
 
         printf("path abs = %s\n", path_absoluto);
     }
+    fork();
+    execv(argv[1],argv);
+    //if (getpid());
+
+    //execute(path_absoluto);
 }
 
 static void handler() {
