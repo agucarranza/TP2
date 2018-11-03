@@ -14,11 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d850a72b-528d-438d-9208-0959d0526bcb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func.c" beforeDir="false" afterPath="$PROJECT_DIR$/func.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func.h" beforeDir="false" afterPath="$PROJECT_DIR$/func.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parseo.c" beforeDir="false" afterPath="$PROJECT_DIR$/parseo.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parseo.h" beforeDir="false" afterPath="$PROJECT_DIR$/parseo.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,11 +128,13 @@
           <entry key="c" value="4800" />
           <entry key="h" value="148" />
           <entry key="m" value="2" />
+          <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="4950" />
+          <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -347,12 +344,20 @@
       <workItem from="1541140816941" duration="7369000" />
       <workItem from="1541149701734" duration="10166000" />
       <workItem from="1541161101125" duration="7747000" />
-      <workItem from="1541210102924" duration="5317000" />
+      <workItem from="1541210102924" duration="5651000" />
     </task>
+    <task id="LOCAL-00001" summary="end parsing tasks">
+      <created>1541215762932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541215762932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120295000" />
+    <option name="totallyTimeSpent" value="120629000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -364,8 +369,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="749" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="-1" width="1368" height="749" extended-state="1" />
     <layout>
       <window_info x="20" y="440" width="175" height="604" id="Structure" order="0" sideWeight="0.525" visible="true" weight="0.14425983" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.475" side_tool="true" visible="true" weight="0.14425983" />
@@ -378,14 +382,14 @@
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47809666" weight="0.3112583" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.22432025" visible="true" weight="0.47019866" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.22432025" visible="true" weight="0.47019866" />
       <window_info anchor="bottom" x="30" y="128" width="1273" height="440" id="Debug" order="9" sideWeight="0.77567977" side_tool="true" weight="0.47019866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="457" y="200" width="452" height="399" id="Database" order="3" show_stripe_button="false" weight="0.32930514" />
       <window_info anchor="right" id="CMake" order="4" sideWeight="0.5066225" weight="0.33912387" />
-      <window_info anchor="right" id="Messages" order="5" sideWeight="0.2094763" side_tool="true" visible="true" weight="0.2779456" />
+      <window_info active="true" anchor="right" id="Messages" order="5" sideWeight="0.2094763" side_tool="true" visible="true" weight="0.2779456" />
       <window_info anchor="right" id="Event Log" order="6" sideWeight="0.509901" weight="0.32930514" />
     </layout>
   </component>
@@ -394,6 +398,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="end parsing tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="end parsing tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
