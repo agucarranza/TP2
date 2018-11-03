@@ -6,6 +6,7 @@
 #define TP2_EJECUCION_H
 
 int executeCmd(char** params);
+int runcmd(char *cmd);
 
 
 #endif //TP2_EJECUCION_H
