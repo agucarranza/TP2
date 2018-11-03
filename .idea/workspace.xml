@@ -12,7 +12,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d850a72b-528d-438d-9208-0959d0526bcb" name="Default Changelist" comment="" />
+    <list default="true" id="d850a72b-528d-438d-9208-0959d0526bcb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/func.c" beforeDir="false" afterPath="$PROJECT_DIR$/func.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/func.h" beforeDir="false" afterPath="$PROJECT_DIR$/func.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parseo.c" beforeDir="false" afterPath="$PROJECT_DIR$/parseo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parseo.h" beforeDir="false" afterPath="$PROJECT_DIR$/parseo.h" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,31 +101,47 @@
     <session id="1403983843">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="TP2 (disassembly)" value="8" />
+          <entry key="baash (disassembly)" value="16" />
           <entry key="c" value="1" />
+          <entry key="h" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="1" />
+          <entry key="Disassembly" value="24" />
+          <entry key="ObjectiveC" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="5" />
+          <entry key="c" value="4800" />
+          <entry key="h" value="148" />
+          <entry key="m" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="5" />
+          <entry key="ObjectiveC" value="4950" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
     </session>
   </component>
   <component name="FavoritesManager">
@@ -129,38 +152,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-              <folding>
-                <element signature="e#41#58#0" expanded="true" />
-              </folding>
+            <state>
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parseo.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state>
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
               </folding>
@@ -171,13 +185,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parseo.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state>
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#41#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,11 +224,11 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/prueba.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test.c" />
-        <option value="$PROJECT_DIR$/func.h" />
-        <option value="$PROJECT_DIR$/func.c" />
+        <option value="$PROJECT_DIR$/parseo.c" />
         <option value="$PROJECT_DIR$/parseo.h" />
         <option value="$PROJECT_DIR$/main.c" />
-        <option value="$PROJECT_DIR$/parseo.c" />
+        <option value="$PROJECT_DIR$/func.h" />
+        <option value="$PROJECT_DIR$/func.c" />
       </list>
     </option>
   </component>
@@ -200,13 +238,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="26" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="-1" />
+    <option name="width" value="1368" />
+    <option name="height" value="749" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <compactDirectories Scope="true" />
@@ -231,10 +270,6 @@
               <item name="TP2" type="b2602c69:ProjectViewProjectNode" />
               <item name="TP2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TP2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -248,7 +283,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,13 +297,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TP2">
+  <component name="RunManager" selected="Application.baash">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TP2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TP2" TARGET_NAME="TP2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TP2" RUN_TARGET_NAME="TP2">
+    <configuration name="baash" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="droga" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TP2" TARGET_NAME="TP2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TP2" RUN_TARGET_NAME="TP2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -281,7 +316,7 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.testeo" />
-      <item itemvalue="Application.TP2" />
+      <item itemvalue="Application.baash" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -304,11 +339,20 @@
       <workItem from="1541048710731" duration="180000" />
       <workItem from="1541048921997" duration="11304000" />
       <workItem from="1541069328015" duration="587000" />
+      <workItem from="1541071030328" duration="5000" />
+      <workItem from="1541121425742" duration="741000" />
+      <workItem from="1541122225724" duration="475000" />
+      <workItem from="1541122750698" duration="10873000" />
+      <workItem from="1541133925197" duration="6399000" />
+      <workItem from="1541140816941" duration="7369000" />
+      <workItem from="1541149701734" duration="10166000" />
+      <workItem from="1541161101125" duration="7747000" />
+      <workItem from="1541210102924" duration="5317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71203000" />
+    <option name="totallyTimeSpent" value="120295000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -320,29 +364,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="-1" y="-1" width="1368" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info x="20" y="440" width="175" height="604" id="Structure" order="0" sideWeight="0.53757226" weight="0.14425983" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.46242774" side_tool="true" visible="true" weight="0.14425983" />
+      <window_info x="20" y="440" width="175" height="604" id="Structure" order="0" sideWeight="0.525" visible="true" weight="0.14425983" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.475" side_tool="true" visible="true" weight="0.14425983" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.5010661" side_tool="true" weight="0.16465257" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.339404" />
-      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.17220543" weight="0.4271523" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" show_stripe_button="false" weight="0.3294702" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.47809666" weight="0.3112583" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" show_stripe_button="false" weight="0.3294702" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47809666" weight="0.3112583" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.22432025" visible="true" weight="0.47019866" />
+      <window_info anchor="bottom" x="30" y="128" width="1273" height="440" id="Debug" order="9" sideWeight="0.77567977" side_tool="true" weight="0.47019866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="457" y="200" width="452" height="399" id="Database" order="3" show_stripe_button="false" weight="0.32930514" />
-      <window_info anchor="right" id="Run" order="4" sideWeight="0.5182119" weight="0.4176737" />
-      <window_info anchor="right" id="CMake" order="5" sideWeight="0.49834436" weight="0.32930514" />
-      <window_info anchor="right" id="Event Log" order="6" sideWeight="0.5115894" weight="0.32930514" />
-      <window_info anchor="right" id="Messages" order="7" sideWeight="0.48178807" side_tool="true" visible="true" weight="0.4176737" />
+      <window_info anchor="right" id="CMake" order="4" sideWeight="0.5066225" weight="0.33912387" />
+      <window_info anchor="right" id="Messages" order="5" sideWeight="0.2094763" side_tool="true" visible="true" weight="0.2779456" />
+      <window_info anchor="right" id="Event Log" order="6" sideWeight="0.509901" weight="0.32930514" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,8 +400,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/func.c</url>
-          <line>171</line>
-          <option name="timeStamp" value="31" />
+          <line>9</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -375,6 +419,16 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>argv[1]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>argv</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>word_array-&gt;*word_array-&gt;**word_array</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -387,18 +441,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2042" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
     <entry file="file:///usr/include/signal.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -423,50 +467,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="7" />
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/parseo.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parseo.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state>
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/func.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="-7">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        <state relative-caret-position="-7">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#41#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parseo.c">
+    <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <element signature="e#42#61#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,49 +3,67 @@
 #include<signal.h>
 #include<string.h>
 #include<unistd.h>
-#include "func.h"
-#include "parseo.h"
-
+#include <linux/limits.h>
 
 static void handler();
 
 int main(int argc, char *argv[]) {
 
-    int path_largo = 0;
-    int var_path_largo = 0;
+    char *buf = NULL;
+    size_t size = PATH_MAX;
     signal(SIGINT, handler);
-    char *str;
-    char **path_array = NULL;
-    char **word_array = NULL;
-    char **var_path_array = NULL;
-    char *env_path = getenv("PATH");
+    char *command = strdup(argv[1]);
+    char *path_absoluto = "HUBO UN ERROR";
+    char *current_path = getcwd(buf, size);
+    char *parent_dir = dirname(strdup(current_path));
+    char *argumento_relativo;
+    char *tipo_camino;
+    char *env_var = strdup(getenv("PATH"));
+    char *home_path = getenv("HOME");
+    free(buf);
 
     //while (1)  {
-    str = "./home/agustin/CLionProjects/TP2/cmake-build-debug/TP2 y tu abuelita tambien";
+    for (int i = 0; i < argc; i++) {
+        printf("argv[%i] = %s\n", i, argv[i]);
+    }
+    if (*argv[1] == '/') {
+        path_absoluto = argv[1];
+        puts("ES UN CAMINO ABSOLUTO");
+    } else {
 
-    //gets(str);
+        argumento_relativo = strtok(command, "/");
+        tipo_camino = argumento_relativo;
+        argumento_relativo = strtok(NULL, "");
+        printf("el tipo de camino sera %s\n", tipo_camino);
+        printf("argumento relativo: %s\n", argumento_relativo);
 
-//        argc = string_parser(str, &word_array);
-//        for (size_t i = 0; i < argc; i++) {
-//            argv[i] = word_array[i];
-//            printf("%s\n", word_array[i]);
-//        }
-//
-//        path_largo = path_parser(word_array[0], &path_array);
-//        for (size_t j = 0; j < path_largo; j++) {
-//            printf("%s\n", path_array[j]);
-//        }
-//
-//        var_path_largo = var_path_parser(env_path, &var_path_array);
-//        for (size_t k = 0; k < var_path_largo; k++) {
-//            printf("%s\n", var_path_array[k]);
-//        }
+        if (!strcmp(tipo_camino, "..")) {
 
+            path_absoluto = strcat(strcat(parent_dir, "/"), argumento_relativo);
+            printf("Revisando el path relativo ..\n");
+        } else if (!strcmp(tipo_camino, ".")) {
+            printf("Revisando el path relativo .\n");
+            path_absoluto = strcat(strcat(current_path, "/"), argumento_relativo);
+        } else if (!strcmp(tipo_camino, "~")) {
+            printf("Revisando el path relativo ~\n");
+            path_absoluto = strcat(strcat(home_path, "/"), argumento_relativo);
+        } else if ((*argv[1] != '/') && argumento_relativo == NULL) {
+            buf = "\0";
+            char *token;
+            command = strcat(strdup("/"), command);
+            token = strtok(env_var, ":");
+            path_absoluto = strcat(strdup(token), command);
+            printf("%s\n", path_absoluto);
+            buf = strcat(strdup(buf), token);
+            while (token = strtok(0, ":")) {
+                path_absoluto = strcat(strdup(token), command);
+                printf("%s\n", path_absoluto);
+            }
 
-//path_relativo(word_array[0]);
+        }
 
-parsear(str, '-');
-
+        printf("path abs = %s\n", path_absoluto);
+    }
 }
 
 static void handler() {
