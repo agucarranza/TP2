@@ -9,6 +9,8 @@
 
 static void handler();
 
+char *dirname();
+
 int main(int argc, char *argv[]) {
 
     char *buf = NULL;
@@ -24,8 +26,9 @@ int main(int argc, char *argv[]) {
     char *home_path = getenv("HOME");
     free(buf);
 
+
     //while (1)  {
-  //  printf("%s@%s:%s$", getenv("USER"),gethostname(),getenv("PWD"));
+    //  printf("%s@%s:%s$", getenv("USER"),gethostname(),getenv("PWD"));
 
     for (int i = 0; i < argc; i++) {
         printf("argv[%i] = %s\n", i, argv[i]);
@@ -54,25 +57,26 @@ int main(int argc, char *argv[]) {
         } else if ((*argv[1] != '/') && argumento_relativo == NULL) {
             buf = "\0";
             char *token;
-            command = strcat(strdup("/"), command);
+            // command = strcat(strdup("/"), command);
             token = strtok(env_var, ":");
             path_absoluto = strcat(strdup(token), command);
             printf("%s\n", path_absoluto);
             buf = strcat(strdup(buf), token);
             while (token = strtok(0, ":")) {
-                path_absoluto = strcat(strdup(token), command);
+                // strcat(token,"/");
+                path_absoluto = strcat(strcat(strdup(token), "/"), command);
                 printf("%s\n", path_absoluto);
             }
-
         }
 
-        printf("path abs = %s\n", path_absoluto);
-    }
-    fork();
-    execv(argv[1],argv);
-    //if (getpid());
 
-    //execute(path_absoluto);
+
+    }
+    argv[1] = path_absoluto;
+    printf("HOLA\n");
+    puts(argv[1]);
+    printf("path abs = %s\n", path_absoluto);
+    executeCmd(argv);
 }
 
 static void handler() {

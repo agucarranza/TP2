@@ -24,11 +24,15 @@ int executeCmd(char** params)
         // Child process
     else if (pid == 0) {
         // Execute command
-        execvp(params[0], params);
+        printf("soy el hijo, pid = %i\n",getpid());
+        sleep(5);
+        execvp(params[1], params);
+
+
 
         // Error occurred
         char* error = strerror(errno);
-        printf("shell: %s: %s\n", params[0], error);
+        printf("shell: %s: %s\n", params[1], error);
         return 0;
     }
 
@@ -36,46 +40,9 @@ int executeCmd(char** params)
     else {
         // Wait for child process to finish
         int childStatus;
+
         waitpid(pid, &childStatus, 0);
+        printf("soy el padre, y te espero pid = %i\n",getpid());
         return 1;
     }
 }
-/*
-
-int runcmd(char *cmd)
-{
-    char* argv[MAX_ARGS];
-    pid_t child_pid;
-    int child_status;
-
-    parsecmd(cmd,argv);
-    child_pid = fork();
-    if(child_pid == 0) {
-        */
-/* This is done by the child process. *//*
-
-
-        execv(argv[0], argv);
-
-        */
-/* If execv returns, it must have failed. *//*
-
-
-        printf("Unknown command\n");
-        exit(0);
-    }
-    else {
-        */
-/* This is run by the parent.  Wait for the child
-           to terminate. *//*
-
-
-        do {
-            pid_t tpid = wait(&child_status);
-            if(tpid != child_pid) process_terminated(tpid);
-        } while(tpid != child_pid);
-
-        return child_status;
-    }
-}
-*/
